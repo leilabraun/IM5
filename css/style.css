@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@200&family=Pacifico&family=Roboto+Slab&display=swap');
+
+
+body{
+  text-align: center;
+  font-family: Inter;
+  
+
+}
+h1{
+  font-size: 5rem;
+}
+h2{
+  font-size: 20pt;
+}
+.print {
+  width: 50%;
+  position: center;
+
+}
+
+.pink {
+  background: #c4b3b5;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.inhalt {
+  text-align: left;
+  margin-left: 42%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
+  font-size: 16pt;
+}
+.film {
+  width: 560pt;
+  height: 315pt;
+}
+/* width="560" height="315" */
+
+/* 
+
+@media screen and (max-width: 900px) {
+
+body {
+    font-family: Inter;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+h1 {
+  font-size: 30pt;
+  padding-bottom: 3rem;
+}
+h2 {
+  font-size: 16pt;
+}
+.inhalt {
+  margin-left: 28%;
+  font-size: 14pt;
+}
+.print {
+  width: 90%;
+}
+.desktop {
+  width: 90%;
+}
+
+.film {
+  width: 350pt;
+  height: 196.875pt;
+
+}
+} */
