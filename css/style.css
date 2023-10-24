@@ -13,6 +13,32 @@ h1{
 h2{
   font-size: 20pt;
 }
+
+ /* Stile für das horizontale Menü */
+ ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  display: flex;
+}
+
+li {
+  padding: 10px 20px;
+}
+
+/* Stile für die Links im Menü */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* ____________________________________________________________________________________________*/
+
+/* Stile für die Links beim Hover */
+/* a:hover {
+  text-decoration: underline;
+}
+
 .print {
   width: 50%;
   position: center;
@@ -24,7 +50,7 @@ h2{
   margin-top: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /* margin-bottom: 2rem; */
+  
 }
 
 .inhalt {
@@ -32,15 +58,14 @@ h2{
   margin-left: 42%;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  /* padding-top: 2rem;
-  padding-bottom: 2rem; */
+ 
   font-size: 16pt;
 }
 .film {
   width: 560pt;
   height: 315pt;
-}
-/* width="560" height="315" */
+} */
+
 
 /* 
 
