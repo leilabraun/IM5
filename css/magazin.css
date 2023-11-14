@@ -1,64 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;800&family=Oswald:wght@700&family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@200&family=Pacifico&family=Roboto+Slab&display=swap');
 
 
-.bild1 {
-    width: 10%;
-    height: auto;
-   
-
-}
-
+/* Allgemeine */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display';
     margin: 0;
     padding: 0;
-    background-color: aqua;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+.text {
     text-align: center;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-main {
     padding: 20px;
 }
 
-article {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 20px 0;
+p {
+    font-family: Inter;
 }
 
-article img {
-    max-width: 100%;
+/* ------------------------------------Titel------------------------------------------ */
+
+.image-container {
+
+    position: relative;
+
+}
+
+.image-container img {
+    width: 40%;
     height: auto;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    padding-bottom: 10rem;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+.image-container h1 {
+    position: absolute;
+    padding-top: 10%;
+    margin-left: 45%;
+    font-size: 100px;
+   
 }
+.image-container h3 {
+    position: absolute;
+    padding-top: 35%;
+    margin-left: 60%;
+    margin-right: 15rem;
+
+} 
+
+.image-container h4{
+    position: absolute;
+    padding-top: 8%;
+    margin-left: 12rem;
+}
+
+/* ------------------------------------Spalten------------------------------------------ */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    text-align: left;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+/* .column1 {
+    background-color: #777373;
+}
+.column2 {
+    background-color: #b49898;
+}
+.column3 {
+    background-color: #615d5d;
+} */
+
+/* Spalte 1 */
+.column1 a {
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    color: inherit; /* Verwendet die Schriftfarbe des Elternelements (schwarz in diesem Fall) */
+}
+
+.column1 h5 {
+    font-size: 2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: -3rem;
+    margin-left: 3rem;
+    font-family: 'Playfair Display';
+}
+
+.column1 p {
+    margin-left: 3rem;
+    margin-top: -2rem;
+    
+}
+
+
+.column1 img {
+    max-width: 60%;
+    height: auto;
+    text-align: left;
+   
+}
+
+/* Spalte 2 */
+
+.column2 h5 {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 0;
+}
+.column2 p {
+    text-align: left;
+}
+
+
+
+/* Spalte 3 */
+
+.column3 h5 {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 0;
+}
+.column3 p {
+    text-align: left;
+    
+}
+
+.column3 img {
+    display: flex;
+    text-align: right;
+    max-width: 40%;
+  
+    }
+    /* Abstand*/
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 120px; /* Hier kannst du den Abstand anpassen */
+    }
+
+    /* Spalte 4 */
+   
+    .column4 h5 {
+        text-align: left;
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    .column4 p {
+        text-align: left;
+    }
+        /* Spalte 5 */
+
+     /* Spalte 6*/
+
+     .column6 a {
+        text-decoration: none; /* Entfernt die Unterstreichung */
+        color: inherit; /* Verwendet die Schriftfarbe des Elternelements (schwarz in diesem Fall) */
+    }
